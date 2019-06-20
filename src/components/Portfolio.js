@@ -57,7 +57,7 @@ class Portfolio extends Component {
          <li>Materialize</li>
          <li>Firebase</li>
      </ul>
-     <a href="https://anightout-1548896687179.firebaseapp.com/" target="_blank"><button className="btn btn-lg blue white whitebutton-text">Check it out</button></a>
+     <a href="https://anightout-1548896687179.firebaseapp.com/" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue white whitebutton-text">Check it out</button></a>
  </div>
 </div>
 <div className="row pl portfolio-info reverse">
@@ -89,7 +89,7 @@ class Portfolio extends Component {
          <li>Materialize</li>
          <li>User input validation</li>
      </ul>
-     <a href="https://traintracker-e3faf.firebaseapp.com/" target="_blank"><button className="btn btn-lg blue white whitebutton-text">Check it out</button></a>
+     <a href="https://traintracker-e3faf.firebaseapp.com/" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue white whitebutton-text">Check it out</button></a>
  </div>
 </div>
 <div className="row pl portfolio-info reverse">
