@@ -11,7 +11,7 @@ class Portfolio extends Component {
 <hr className="line-blue"></hr>
 <div className="blue row nomargin pl portfolio-info">
     <div className="container col l4 offset-l2 s12">
-        <img className="portfolio-img" src="images/benchstrength.png"/>
+        <img className="portfolio-img" src="images/benchstrength.png" alt="bench strength"/>
     </div> 
  <div className="container col l4 s12 pl white-text ">
      <h3>Bench Strength</h3>
@@ -24,7 +24,7 @@ class Portfolio extends Component {
          <li>Auth0</li>
          <li>AWS</li>
      </ul>
-     <a href="http://ec2-3-80-218-219.compute-1.amazonaws.com:3000" target="_blank"><button className="btn btn-lg blue white whitebutton-text">Check it out</button></a>
+     <a href="http://ec2-3-80-218-219.compute-1.amazonaws.com:3000" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue white whitebutton-text">Check it out</button></a>
  </div>
 </div>
 <div className="row pl portfolio-info reverse">
@@ -38,15 +38,15 @@ class Portfolio extends Component {
                 <li>Node.js</li>
                 <li>Passportjs</li>
             </ul>
-            <a href="http://dailydashboardproject2.herokuapp.com" target="_blank"><button className="btn btn-lg blue lighten-2">Check it out</button></a>
+            <a href="http://dailydashboardproject2.herokuapp.com" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue lighten-2">Check it out</button></a>
         </div>
             <div className="container col l4 s12">
-                <img className="portfolio-img" src="images/dailydash.png"/>
+                <img className="portfolio-img" src="images/dailydash.png" alt="daily dash"/>
             </div> 
         </div>
  <div className="blue row nomargin pl portfolio-info">
     <div className="container col l4 offset-l2 s12">
-        <img className="portfolio-img" src="images/aNightIn.jpg"/>
+        <img className="portfolio-img" src="images/aNightIn.jpg" alt="a night in" />
     </div> 
  <div className="container col l4 s12 pl white-text ">
      <h3>A Night In App</h3>
@@ -70,15 +70,15 @@ class Portfolio extends Component {
             <li>Materialize</li>
             <li>jQuery</li>
         </ul>
-        <a href="https://fearmichael.github.io/giftastic/" target="_blank"><button className="btn btn-lg blue lighten-2">Check it out</button></a>
+        <a href="https://fearmichael.github.io/giftastic/" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue lighten-2">Check it out</button></a>
     </div>
         <div className="container col l4 s12">
-            <img className="portfolio-img" src="images/gifTastic.png"/>
+            <img className="portfolio-img" src="images/gifTastic.png" alt="giftastic" />
         </div> 
     </div>
 <div className="blue row nomargin pl">
     <div className="container col l4 offset-l2 s12">
-        <img className="portfolio-img" src="images/trainTracker.png"/>
+        <img className="portfolio-img" src="images/trainTracker.png" alt="train tracker" />
     </div> 
  <div className="container col l4 s12 pl white-text portfolio-info">
      <h3>Train Tracker</h3>
@@ -102,7 +102,7 @@ class Portfolio extends Component {
             <li>Bootstrap</li>
             <li>jQuery</li>
         </ul>
-        <a href="https://fearmichael.github.io/word-guess-game/" target="_blank"><button className="btn btn-lg blue lighten-2">Check it out</button></a>
+        <a href="https://fearmichael.github.io/word-guess-game/" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue lighten-2">Check it out</button></a>
     </div>
         <div className="container col l4 s12">
             <img className="portfolio-img" src="images/wordGuess.png"/>
@@ -132,7 +132,7 @@ class Portfolio extends Component {
             <li>Github Version Control</li>
             <li>Bootstrap</li>
         </ul>
-        <a href="https://fearmichael.github.io/starwars" target="_blank"><button className="btn btn-lg blue lighten-2">Check it out</button></a>
+        <a href="https://fearmichael.github.io/starwars" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue lighten-2">Check it out</button></a>
     </div>
         <div className="container col l4 s12">
             <img className="portfolio-img" src="images/starwars.png"/>
