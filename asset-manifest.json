@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "fearmichael.github.io/react-portfolio/static/css/main.e9bb1ebb.chunk.css",
+    "main.js": "fearmichael.github.io/react-portfolio/static/js/main.949128eb.chunk.js",
+    "main.js.map": "fearmichael.github.io/react-portfolio/static/js/main.949128eb.chunk.js.map",
+    "runtime~main.js": "fearmichael.github.io/react-portfolio/static/js/runtime~main.bc9be027.js",
+    "runtime~main.js.map": "fearmichael.github.io/react-portfolio/static/js/runtime~main.bc9be027.js.map",
+    "static/js/2.46ce45ad.chunk.js": "fearmichael.github.io/react-portfolio/static/js/2.46ce45ad.chunk.js",
+    "static/js/2.46ce45ad.chunk.js.map": "fearmichael.github.io/react-portfolio/static/js/2.46ce45ad.chunk.js.map",
+    "index.html": "fearmichael.github.io/react-portfolio/index.html",
+    "precache-manifest.cc67e8536a301a8210cd7bacee771923.js": "fearmichael.github.io/react-portfolio/precache-manifest.cc67e8536a301a8210cd7bacee771923.js",
+    "service-worker.js": "fearmichael.github.io/react-portfolio/service-worker.js",
+    "static/css/main.e9bb1ebb.chunk.css.map": "fearmichael.github.io/react-portfolio/static/css/main.e9bb1ebb.chunk.css.map"
+  }
+}
