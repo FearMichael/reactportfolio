@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "fearmichael.github.io",
+  "homepage": "fearmichael.github.io/react-portfolio",
   "dependencies": {
     "eslint": "^5.16.0",
     "gh-pages": "^2.0.1",
