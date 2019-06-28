@@ -19,7 +19,7 @@ class Navbar extends Component {
       <nav className="nav-wrapper blue lighten-2">
       <div className="nav-wrapper">
           <a href="index.html" className="brand-logo center">Michael Fearnley</a>
-          <a href="#" data-target="menu-dropdown" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+          <button href="#" data-target="menu-dropdown" className="sidenav-trigger"><i className="material-icons">menu</i></button>
           <ul className="left hide-on-med-and-down">
             <li><Link to="/about">About</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>

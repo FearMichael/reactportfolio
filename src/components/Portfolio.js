@@ -105,12 +105,12 @@ class Portfolio extends Component {
         <a href="https://fearmichael.github.io/word-guess-game/" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue lighten-2">Check it out</button></a>
     </div>
         <div className="container col l4 s12">
-            <img className="portfolio-img" src="images/wordGuess.png"/>
+            <img className="portfolio-img" src="images/wordGuess.png" alt="word guess game"/>
         </div> 
     </div>
     <div className="blue row nomargin pl">
         <div className="container col l4 offset-l2 s12">
-            <img className="portfolio-img" src="images/rotatingbackgrounds.png"/>
+            <img className="portfolio-img" src="images/rotatingbackgrounds.png" alt="rotating backgrounds"/>
         </div> 
      <div className="container col l4 s12 pl white-text portfolio-info">
          <h3>Rotating Backgrounds</h3>
@@ -120,7 +120,7 @@ class Portfolio extends Component {
              <li>Bootstrap</li>
              <li>Unsplash API</li>
          </ul>
-         <a href="https://fearmichael.github.io/rotatingbackground/" target="_blank"><button className="btn btn-lg blue white whitebutton-text">Check it out</button></a>
+         <a href="https://fearmichael.github.io/rotatingbackground/" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue white whitebutton-text">Check it out</button></a>
      </div>
     </div>
 <div className="row pl portfolio-info reverse">
@@ -135,7 +135,7 @@ class Portfolio extends Component {
         <a href="https://fearmichael.github.io/starwars" target="_blank" rel='noreferrer noopener'><button className="btn btn-lg blue lighten-2">Check it out</button></a>
     </div>
         <div className="container col l4 s12">
-            <img className="portfolio-img" src="images/starwars.png"/>
+            <img className="portfolio-img" src="images/starwars.png" alt="star wars game" />
         </div> 
     </div>
     <hr className="line-blue"></hr>
