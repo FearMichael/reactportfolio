@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
+import M from "materialize-css";
 
 
 class About extends Component {
+
+    componentDidMount() {
+        M.AutoInit();
+      }
+
   render() {
     return (
       <>
@@ -9,7 +15,7 @@ class About extends Component {
       <div className="row nopadding nomargin">
           <div className="col l6 s12">
               <div className="center-align">
-                 <img className="responsive-img" src="images/Fearnley-Headshot-Small-edited.jpg" alt="Picture of Michael Fearnley"/>
+                 <img className="responsive-img" src="images/Fearnley-Headshot-Small-edited.jpg" alt="Michael Fearnley"/>
               </div>
           </div>
           <div className="col l6 s12 valign-wrapper titleButtons">
@@ -17,15 +23,15 @@ class About extends Component {
                   <h1 className="white-text title">Full Stack Web Developer</h1>
                   <a href="mailto:mtfear@hotmail.com"><button className="btn btn-large blue lighten-2"><i className="material-icons icon-left">email</i>Email Me</button></a>
                   <hr className="line"></hr>
-                  <a href="https://www.linkedin.com/in/michael-fearnley/" target="_blank"><img className="logoimg" src="images/linkedin-logo.png"/></a>
-                  <a href="https://github.com/FearMichael" target="_blank"><img className="logoimg" src="images/github-logo.png"/></a>
+                  <a href="https://www.linkedin.com/in/michael-fearnley/" target="_blank"><img className="logoimg" src="images/linkedin-logo.png" alt="linked in logo"/></a>
+                  <a href="https://github.com/FearMichael" target="_blank"><img className="logoimg" src="images/github-logo.png" alt="github logo"/></a>
               </div>
           </div>
       </div>
   </div>
   <div>
   {/* Hobbies and interests section */}
-      <div className="nopadding row nomargin">
+      <div className="nopadding row nomargin scrollspy" id="About">
            {/* Hobbies/Interests Column  */}
           <div className="col l6 m12 s12 nomargin nopadding">
                   <h2 className="blue lighten-2 pst center-align">Hobbies &amp; Interests</h2>

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -21,19 +21,41 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
   /* main {
     flex: 1 0 auto;
   } */
 
-  body {
+body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     overflow-x: hidden;
 }
+div p.tools {
+    font-weight: 700;
+}
+div .toolsLine:nth-child(odd) {
+    width: 40%;
+    border-color: #64b5f6;
+}
+
+div .toolsLine:nth-child(even) {
+    width: 40%;
+    border-color: whitesmoke;
+}
+
+a.btn:hover:nth-child(odd) {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px whitesmoke;
+}
+a.btn:hover:nth-child(even) {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #64b5f6;
+}
+
 main {
     flex: 1 0 auto;
 }
@@ -50,33 +72,27 @@ footer {
     width: 100%;
 }
 
-/* .carousel img {
-    min-height: 90%;
-
-} */
-
-/* .jumbotron-fluid {
-    margin-bottom: 0;
-    background-color: rgb(004, 003, 008);
+div.portfolio-info:nth-child(odd) {
+    background-color: #2196f3;
+    color: whitesmoke;
 }
 
-.carousel-caption-shadow {
-    text-shadow: 3px 0 5px black;
-} */
+div.portfolio-info:nth-child(odd) > div > a {
+    color: #64b5f6;
+    background-color: whitesmoke;
+}
 
-/* .parallax-container img {
-    width: 70%;
-    height: 100%; 
- } */
+div.portfolio-info:nth-child(even) > div > a {
+    background-color: #64b5f6;
+    color: whitesmoke;
+}
 
  .portfolio-img {
      max-width: 100%;
      height: auto;
      padding: 1rem;
  }
-/* .nomargin {
-    margin: 0rem;
-} */
+
 
 .nopadding {
     padding: 0;
@@ -100,10 +116,9 @@ div.row div.col {
     margin: 0;
 }
 
-.whitebutton-text {
-    color: #64b5f6;
+div .sidenav {
+    background-color: #64b5f6;
 }
-
 .pl {
      padding: 2em;
  }
@@ -205,7 +220,7 @@ div.row div.col {
     margin: 0 20%;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     nav .brand-logo {
         font-size: 1.10rem;
     }
@@ -216,10 +231,14 @@ div.row div.col {
     div.portfolio-info {
         text-align: center;
     }
-
-    .reverse {
+    div.portfolio-info:nth-child(even) {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
+    }
+
+    div.portfolio-info:nth-child(odd) {
+        display: flex;
+        flex-direction: row-reverse;
     }
     
 }
@@ -231,4 +250,4 @@ div.row div.col {
   to {
     transform: rotate(360deg);
   }
-}
+} */
