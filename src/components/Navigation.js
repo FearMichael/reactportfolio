@@ -11,7 +11,7 @@ class Navigation extends Component {
   render() {
     return (
       <>
-        <nav id="Home">
+        <nav id="Home" className="scrollspy">
           <div className="nav-wrapper blue lighten-2">
           <a href="#Home" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
             <a href="#Home" className="brand-logo center">Michael Fearnley</a>

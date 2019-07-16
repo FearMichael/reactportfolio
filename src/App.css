@@ -22,6 +22,14 @@ div.portfolio-info:nth-child(odd) .toolsLine {
     background-color: whitesmoke;
 }
 
+a > i {
+    pointer-events: none;
+    margin-left: 1em;
+}
+
+.footerArrow  {
+    color: whitesmoke;
+}
 
 div.skillsSection.row {
    margin: auto;

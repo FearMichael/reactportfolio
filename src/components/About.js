@@ -30,7 +30,7 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="container">
-                    <h2 id="Portfolio" className="scrollspy center-align">About</h2>
+                    <h2 id="Portfolio" className="center-align">About<a href="#Home" className="center-align"><i className="small material-icons">arrow_upward</i></a></h2>
                 </div>
                 <hr className="line-blue"></hr>
                 <div>
