@@ -1,32 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */
-
-  /* main {
-    flex: 1 0 auto;
-  } */
-
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -49,6 +20,11 @@ div.portfolio-info:nth-child(odd) .toolsLine {
     border: 0;
     height: 0.15rem;
     background-color: whitesmoke;
+}
+
+
+div.skillsSection.row {
+   margin: auto;
 }
 
 a.btn:hover:nth-child(odd) {
@@ -170,19 +146,6 @@ div .sidenav {
     border: none;
 }
 
-/* .line-blue-portfolio {
-    height: 0.25rem;
-    width: 95%;
-    background-color: #4fc3f7;
-    margin: 1.5rem auto;
-    border: none;
-} */
-
-/* .valign-center {
-    display: inline-flex;
-    vertical-align: middle;
-    align-items: center;
-  } */
 
 .material-icons {
     display: inline-flex;
@@ -224,34 +187,15 @@ div .sidenav {
     margin: 0 20%;
 }
 
-/* @media only screen and (max-width: 500px) {
-    nav .brand-logo {
-        font-size: 1.10rem;
-    }
-    
-}
-
 @media only screen and (max-width: 990px) {
-    div.portfolio-info {
-        text-align: center;
-    }
-    div.portfolio-info:nth-child(even) {
+    .reverse {
         display: flex;
-        flex-direction: row;
-    }
-
-    div.portfolio-info:nth-child(odd) {
-        display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
     }
     
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+@media only screen and (max-width: 550px) {
+    a.brand-logo.center {
+        font-size: 1rem;
+    }
+}

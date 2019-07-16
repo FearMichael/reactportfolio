@@ -22,8 +22,8 @@ class Navigation extends Component {
           </div>
         </nav>
         <ul className="sidenav" id="mobile-demo">
-          <li><a href="#About" className="sidenav-close">About</a></li>
-          <li><a href="#Portfolio" className="sidenav-close">Portfolio</a></li>
+          <li><a href="#About" className="sidenav-close white-text">About</a></li>
+          <li><a href="#Portfolio" className="sidenav-close white-text">Portfolio</a></li>
         </ul>
       </>
     )
