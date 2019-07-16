@@ -1,7 +1,6 @@
 import React from 'react';
 
 function RightImgDiv(props) {
-    console.log(props.portInfo)
     return (
         <div className="row nomargin pl portfolio-info" key={props.portInfo.name.toString()}>
             <div className="container col l4 s12 pl offset-l2 center-align">

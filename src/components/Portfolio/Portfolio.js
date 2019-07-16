@@ -9,7 +9,6 @@ class Portfolio extends Component {
 
     componentDidMount() {
         M.AutoInit();
-        console.log(portfolioInfo);
       }
     
     render() {
@@ -20,7 +19,8 @@ class Portfolio extends Component {
                 </div>
                 <hr className="line-blue"></hr>
                 {portfolioInfo.map(portInfo => {
-                return portfolioInfo.indexOf(portInfo)%2 === 0 ? <LeftImgDiv portInfo={portInfo} /> : <RightImgDiv portInfo={portInfo}/>
+                return portfolioInfo.indexOf(portInfo)%2 === 0 ? 
+                    <LeftImgDiv key={portInfo.name.toString()} portInfo={portInfo} /> : <RightImgDiv key={portInfo.name.toString()} portInfo={portInfo}/>
             })}
             </div>
         )

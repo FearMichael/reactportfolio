@@ -23,8 +23,8 @@ class About extends Component {
                                 <h1 className="white-text title">Full Stack Web Developer</h1>
                                 <a href="mailto:mtfear@hotmail.com"><button className="btn btn-large blue lighten-2"><i className="material-icons icon-left">email</i>Email Me</button></a>
                                 <hr className="line"></hr>
-                                <a href="https://www.linkedin.com/in/michael-fearnley/" target="_blank"><img className="logoimg" src="images/linkedin-logo.png" alt="linked in logo" /></a>
-                                <a href="https://github.com/FearMichael" target="_blank"><img className="logoimg" src="images/github-logo.png" alt="github logo" /></a>
+                                <a href="https://www.linkedin.com/in/michael-fearnley/" target="_blank" rel="noopener noreferrer"><img className="logoimg" src="images/linkedin-logo.png" alt="linked in logo" /></a>
+                                <a href="https://github.com/FearMichael" target="_blank" rel="noopener noreferrer"><img className="logoimg" src="images/github-logo.png" alt="github logo" /></a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ class About extends Component {
                                 <h2 className="blue lighten-2 pst center-align">Skills &amp; Attributes</h2>
                             </div>
                             <div className="row nopadding sectionContent">
-                                <div className="col l6 s12 nopadding">
+                                <div className="col l6 s6 nopadding">
                                     <div className="container">
                                         <h4>Personal</h4>
                                         <ul>
@@ -76,7 +76,7 @@ class About extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col l6 s12 nopadding">
+                                <div className="col l6 s6 nopadding">
                                     <div className="container">
                                         <h4>Professional</h4>
                                         <ul>

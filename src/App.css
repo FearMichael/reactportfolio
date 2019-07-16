@@ -37,14 +37,18 @@ body {
 div p.tools {
     font-weight: 700;
 }
-div .toolsLine:nth-child(odd) {
+div.portfolio-info:nth-child(even) .toolsLine {
     width: 40%;
-    border-color: #64b5f6;
+    border: 0;
+    height: 0.15rem;
+    background-color: #64b5f6;
 }
 
-div .toolsLine:nth-child(even) {
+div.portfolio-info:nth-child(odd) .toolsLine {
     width: 40%;
-    border-color: whitesmoke;
+    border: 0;
+    height: 0.15rem;
+    background-color: whitesmoke;
 }
 
 a.btn:hover:nth-child(odd) {
